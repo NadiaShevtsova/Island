@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Baskerville;
+    src: url('font/baskerville-regular.ttf');
+}
+@font-face {
+    font-family: Montserrat;
+    src: url('font/Montserrat-Light.ttf');
+}
+@font-face {
+    font-family: Raleway;
+    src: url('font/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: MyriadPro;
+    src: url('font/MyriadPro-Regular.otf');
+}
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('font/Montserrat-SemiBold.ttf');
+}
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('font/Montserrat-Regular.ttf');
+}
+
+
+.phone-number, .container-for-order-blocks .order-block {
+    font-family: Montserrat;
+}
+
+.text-for-logo > div:nth-child(1), .main-title, .header-browse-our-cabin-rentals {
+    font-family: Baskerville;
+}
+
+.navigation a, .text-under-main-title {
+    font-family: Raleway;
+}
+
+.container-for-order-blocks .search {
+    font-family: Montserrat-SemiBold;
+}
+.block-for-images .position-for-text {
+    font-family: Montserrat-Regular;
+}
+
+.main-wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.header-for-welcome-to, .header-gateway-to-outdoor-recreation {
+    padding-bottom: 50px;
+}
+
+.main-header, .logo, .right-content-of-header, .background-mountains, .block-for-images,
+.block-for-images > .position-for-text, .mail-in-header, .inner-container-for-welcome-to,
+.welcome-to-with-text-and-form, .from-for-welcome-to, .inner-container-gateway-to-outdoor-recreation,
+.container-for-picture, .social-networks, .footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-for-logo, .uppercase, .search, .from-for-welcome-to button {
+    text-transform: uppercase;
+}
+
+.main-header, .container-for-picture div, .footer {
+    background-color: black;
+}
+.main-header, .inner-container-for-welcome-to, .footer {
+    justify-content: space-between;
+}
+
+.text-for-logo {
+    color: #fbd682;
+}
+
+.inner-container-gateway-to-outdoor-recreation .block{
+    width: 50%;
+}
+
+.phone-number, .navigation a, .main-title, .text-under-main-title, .info-about-img, .search,
+.header-for-welcome-to, .container-for-welcome-to .text,.from-for-welcome-to input::placeholder,
+.video-welcome-to p, .container-for-picture div, .footer nav a, .footer div {
+    color: white;
+}
+
+.mail-in-header {
+    background: #fbd682;
+}
+
+.background-mountains {
+    background: url("img/Layer 957.png") center center no-repeat;
+    background-size: cover;
+    height: 626px;
+}
+
+.block-for-images > .position-for-text, .background-mountains, .logo, .mail-in-header,
+.welcome-to-with-text-and-form {
+    justify-content: center;
+}
+
+.block-for-images > .position-for-text, .background-mountains, .logo, .mail-in-header, .social-networks {
+    align-items: center;
+}
+
+.logo, .navigation a {
+    margin-left: 10px;
+}
+
+.footer nav a {
+    margin-right: 10px;
+}
+
+.background-mountains, .mail-in-header, .welcome-to-with-text-and-form, .from-for-welcome-to {
+    flex-direction: column;
+}
+
+.main-title {
+    font-size: 92px;
+    letter-spacing: 5px;
+}
+
+.container-for-order-blocks {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.order-block {
+    background: white;
+}
+
+.order-block {
+    margin: 5px;
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+.search {
+    background: #f3c45c;
+    width: 150px;
+}
+
+.text-for-logo > div:nth-child(1), .phone-number, .header-browse-our-cabin-rentals, .info-about-img,
+.header-gateway-to-outdoor-recreation {
+    font-size: 30px;
+}
+
+.text-for-logo > div:nth-child(2) {
+    letter-spacing: 2px;
+    font-family: Montserrat;
+}
+
+.text-for-logo > div:nth-child(1){
+    border-bottom: 1px solid white;
+}
+.phone-number, .navigation, .social-networks img {
+    margin: 10px;
+}
+
+.navigation a, .footer nav a {
+    text-decoration: none;
+}
+
+.block-for-images > .width-block, .container-for-picture > div {
+    width: 25%;
+}
+
+.container-for-picture .block {
+    padding: 20px 10px;
+}
+
+.container-for-picture div img {
+    width: 400px;
+    max-height: 210px;
+}
+
+.block-for-images .pet {
+    background: url("img/Layer 782.png") no-repeat;
+}
+
+.block-for-images .hot-tub {
+    background: url("img/Layer 777.png") center center no-repeat;
+}
+
+.block-for-images .luxury-cabins {
+    background: url("img/Layer 783.png") center center no-repeat;
+}
+
+.block-for-images .longterm-rentals {
+    background: url("img/Layer 781.png") center center no-repeat;
+}
+
+.house1 {
+    background: url("img/Layer 987.png") center center no-repeat;
+}
+
+.house2 {
+    background: url("img/Layer 983.png") center center no-repeat;
+}
+
+.house3 {
+    background: url("img/Layer 982.png") center center no-repeat;
+}
+
+.house4 {
+    background: url("img/Layer 981.png") center center no-repeat;
+}
+
+.block-for-images .pet, .block-for-images .hot-tub, .block-for-images .luxury-cabins,
+.block-for-images .longterm-rentals, .house1, .house2, .house3, .house4 {
+    height: 260px;
+    background-size: 400px;
+}
+
+.house1, .house2, .house3, .house4 {
+    height: 230px;
+}
+
+.header-browse-our-cabin-rentals {
+    margin: 20px;
+}
+
+.mail-in-header, .background-mountains, .header-browse-our-cabin-rentals, .text-for-logo, .search,
+.header-for-welcome-to, .header-gateway-to-outdoor-recreation,
+.inner-container-gateway-to-outdoor-recreation .block {
+    text-align: center;
+}
+.phone-number {
+    text-align: right;
+}
+
+.mail-in-header, .order-block, .from-for-welcome-to input, .from-for-welcome-to button {
+    padding: 10px;
+}
+
+.inner-container-gateway-to-outdoor-recreation p {
+    padding: 5px 30px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+.container-for-welcome-to {
+    background: url("img/Layer 952.png");
+}
+
+.container-for-welcome-to, .container-gateway-to-outdoor-recreation {
+    padding: 50px;
+}
+
+.from-for-welcome-to input, .from-for-welcome-to button {
+    border: 1px solid white;
+}
+.from-for-welcome-to input {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.from-for-welcome-to input,.from-for-welcome-to button {
+    margin: 5px;
+}
+
+.inner-container-gateway-to-outdoor-recreation .block {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ .from-for-welcome-to {
+    margin-top: 20px;
+}
+
+.from-for-welcome-to button, .container-for-picture .block:hover {
+    background: #d9b668;
+}
+
+.welcome-to-with-text-and-form {
+    width: 40%;
+}
+
+.video-welcome-to {
+    position: relative;
+}
+
+.video-welcome-to p{
+    position: absolute;
+}
+
+.video-welcome-to p:nth-child(1),.video-welcome-to p:nth-child(2) {
+    left: 5%;
+    font-size: 22px;
+}
+
+.video-welcome-to p:nth-child(1){
+    top: 10%;
+}
+
+.video-welcome-to p:nth-child(2){
+    top: 15%;
+    font-size: 32px;
+}
